@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-W
-LDFLAGS=-lncurses
-EXEC=sample_color sample_input sample_mouse sample_output sample sample_init_mode sample_keyboard sample_multiple_win sample_screen
+LDFLAGS=-lncurses -lpanel
+EXEC=sample_color sample_input sample_mouse sample_output sample sample_init_mode sample_keyboard sample_multiple_win sample_screen sample_panel
 
 all: $(EXEC)
 
